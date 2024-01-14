@@ -1,0 +1,63 @@
+/* navbar.css */
+.navbar {
+  width: 100%;
+  min-height: 6vh;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eee;
+  transition: all 0.7s ease-in;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+  width: 50px;
+}
+
+.navigation ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start; 
+  margin-left: 50;
+}
+
+.navigation {
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.5s ease;
+}
+
+.navigation a:hover {
+  color: #e60023;
+}
+
+.search-box {
+  display: flex;
+  gap: 10px;  
+  align-items: center;
+  width: 1200px;
+  margin-top: 5px;
+}
+
+.search-box input {
+  flex-grow: 1;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 50px; 
+}
